@@ -1,4 +1,3 @@
 sonar.projectKey=iti_lab
-sonar.projectName=iti_lab
 sonar.sourceEncoding=UTF-8
 sonar.sources=python.py
