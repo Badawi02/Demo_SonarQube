@@ -8,7 +8,7 @@ node {
       sh "${scannerHome}/bin/sonar-scanner"
       sonar-scanner \
         -Dsonar.projectKey=iti_lab \
-        -Dsonar.sources=. \
+        -Dsonar.sources=python.py \
         -Dsonar.host.url=http://localhost:9000 \
         -Dsonar.login=sqp_0fc48057d69314661c45895c6a07c4dee3cd2e07
     }
